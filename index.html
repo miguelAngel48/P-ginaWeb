@@ -1,13 +1,139 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>package.json</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miguel Ángel Ponce Sánchez | Desarrollador Backend</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+  <!-- CABECERA / CV -->
+  <header class="hero">
+     
+    <div class="hero-content">
+      <h1>Miguel Ángel Ponce Sánchez</h1>
+      <h2>Desarrollador Web · Desarrollador Backend</h2>
+    </div>
+    <div class="hero-image">
+      <img src="public/MiguelAngel.png" alt="Miguel Ángel Ponce Sánchez">
+    </div>
+  </header>
+
+  <!-- PERFIL -->
+  <section class="section">
+    <h3>Perfil Profesional</h3>
+    <p>
+      Desarrollador web en formación, nacido en 1997, actualmente cursando el ciclo formativo
+      de Desarrollo de Aplicaciones Web en <strong>Es Liceu</strong>.  
+      Especializado en el desarrollo Backend utilizando Java y Spring Boot, con conocimientos
+       en Frontend y bases de datos relacionales.
+    </p>
+    <p>
+  Me caracterizo por una mentalidad calmada y reflexiva, con orientación a las buenas prácticas,
+  el código limpio y la capacidad de trabajar eficazmente en equipoS.
+</p>
+
+  </section>
+
+  <!-- FORMACIÓN -->
+ <section class="section dark">
+  <h3>Formación Académica</h3>
+  <ul class="timeline">
+    
+    <li>
+      <span class="year">Actual</span>
+      <div>
+        <strong>Desarrollo de Aplicaciones Web (DAW)</strong> · Es Liceu
+      </div>
+    </li>
+
+    <li>
+      <span class="year">Grado Superior</span>
+      <div>
+        <strong>Fotografía</strong> · IES Juníper Serra
+      </div>
+    </li>
+
+    <li>
+      <span class="year">Grado Medio</span>
+      <div>
+        <strong>Actividades Físicas en el Medio Natural</strong> · IES Son Rullan
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+
+
+  <!-- HABILIDADES -->
+  <section class="section">
+  <h3>Competencias Técnicas</h3>
+
+  <div class="skills-canvas-container">
+    <canvas id="skillsCanvas"></canvas>
+  </div>
+</section>
+
+<script src="skills-canvas.js"></script>
+
+
+  <!-- IDIOMAS -->
+  <section class="section dark">
+    <h3>Idiomas</h3>
+    <ul class="languages">
+      <li>Castellano — Nativo</li>
+      <li>Catalán — Avanzado</li>
+      <li>Inglés — Técnico / Intermedio</li>
+    </ul>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section">
+    <h3>Proyectos</h3>
+    <div class="projects">
+      <a href="https://lenguajedenarcas.netlify.app/trabajosactuales/api/api" target="_blank">API PixaBay</a>
+      <a href="https://lenguajedenarcas.netlify.app/trabajosactuales/galeria" target="_blank">Galeria de imágenes</a>
+      <a href="https://proyectoswebma.netlify.app/SVG/Cafe.svg" target="_blank">SVG imagen interactiva</a>
+    </div>
+    <p class="note">
+      
+    </p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section dark">
+  <h3>Contacto</h3>
+
+  <div class="contact">
+
+    <p class="contact-item">
+      <span class="icon">
+       
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="2"/>
+          <path d="M4 6l8 7 8-7" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span>miguelangelponcesanchez1111@gmail.com</span>
+    </p>
+
+    <p class="contact-item">
+      <span class="icon text-icon">GitHub</span>
+      <a href="https://github.com/miguelAngel48" target="_blank">
+        github.com/miguelAngel48
+      </a>
+    </p>
+
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 · Miguel Ángel Ponce Sánchez</p>
+  </footer>
+<script src="/src/js/main.js"></script>
+</body>
 </html>
