@@ -64,12 +64,17 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
+  align-items: flex-start; 
 }
 
 .year {
+  width: 140px;        
+  flex-shrink: 0;     
   font-weight: bold;
   color: var(--blue);
+  text-align: right;  
 }
+
 
 
 .skills-canvas-container {
