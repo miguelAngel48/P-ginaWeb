@@ -11,13 +11,13 @@ resizeCanvas();
 
 
 const skillImagesSrc = [
-  "public/skills/java.png",
-  "public/skills/SpringBoot.png",
-  "public/skills/javascript.png",
-  "public/skills/sql.png",
-  "public/skills/css.png",
-  "public/skills/html.png",
-  "public/skills/git.png"
+  "/public/skills/java.png",
+  "/public/skills/SpringBoot.png",
+  "/public/skills/javascript.png",
+  "/public/skills/sql.png",
+  "/public/skills/css.png",
+  "/public/skills/html.png",
+  "/public/skills/git.png"
 ];
 
 
